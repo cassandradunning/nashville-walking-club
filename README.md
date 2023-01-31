@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+Name of Project: Nashville Walking Club
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Brief Proposal ( The elevator pitch):
+The problem you’re solving: Connecting walkers with a community of walkers and routes in Nashville.
+How your app will address that problem: Provide walking meet-ups and routes around Nashville.    
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+Application Overview 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Overview of Application: 
+Who are the target users of this application? Walkers in Nashville looking for new friendships. Specifically women between 22-35. 
+What can a user do with this application? Find and connect with a community of walkers in Nashville, through Nashville Walking Club
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Features included in MVP Definition ( a bullet list of each unique feature) : 
+Allow all users to see Meet-ups
+Allow all users to suggest new Meet-ups
+Allow all users to filter Meet-ups by area of town
+Allow all users to delete their Meet-ups
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+User Stories to be added to Github repo Issues ( Create at least 4 for now ): 
+(Must be written using GIVEN, WHEN, and THEN (AND, BUT )
+1. See Meet-ups
+    Given: The user wants to find upcoming walks
+    When: The user clicks the navigation link for upcoming walks, “See Meetups”
+    Then: The user will see a list of upcoming walks including, walk name, address, walk date, walk leader, and the location image
+2. New Meet-ups
+    Given: A user wants to suggest new walking routes
+    When: A user fills out a form, via a navigation link labeled, “Suggest a Meet-up”
+    Then: The suggested route will show on a  “Suggestions List” that is only accessible for users labeled as “walk leaders”
+        - Users labeled as “walker” will see a list of “Suggested Walks” that they can delete if needed
+3. Filter Meet-ups by Area of Town
+    Given: A user wants to filter upcoming meet-ups based on location
+    When: A user selects a drop down on the meet-ups page
+    Then: A user will see a filtered list of meet-ups by area of town: North, South, East, West 
+4. Delete Meet-ups
+    Given: A user wants to delete a suggested meet-up, they submitted
+    When: A user selects the link labeled, “delete” by a suggested meet-up
+    Then: The suggested meetup will be deleted from the “Your Suggested Meet-ups” and be deleted from the json server
