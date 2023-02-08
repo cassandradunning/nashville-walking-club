@@ -1,19 +1,42 @@
 .navbar {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: left;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    padding: 1rem;
+    
 }
 
 .navbar__item {
     flex-basis: 20%;
     list-style-type: none;
+    list-style-type: none;
+  text-align: center;
+  margin: auto;
 }
 
 .navbar__logout {
     margin-left: auto;
 }
 
-.logo-img {
+.logo_img {
   width: 15rem;
   height: 14rem;
 }
+
+.navbar__link {
+    text-decoration: none;
+    color: black;
+    font-family: "Orpheus Pro Bold";
+    font-size: 1.25rem;
+  }
+  .navbar__link:hover {
+    color: rgb(239, 14, 14);
+  }
+/*
+.logo__link navbar__link
+.navbar__link
+
+
+*/

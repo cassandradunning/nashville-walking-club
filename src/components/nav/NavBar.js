@@ -4,10 +4,10 @@ import { CustomerNav } from "./CustomerNav"
 
 export const NavBar = () => {
 
-    const localWalkUser = localStorage.getItem("walk_user")
+    const localWalkUser = localStorage.getItem("walker_user")
     const walkUserObject = JSON.parse(localWalkUser)
 
-    if (walkUserObject.staff) {
+    if (walkUserObject.leader) {
         // return employee views
         return <EmployeeNav />
     }

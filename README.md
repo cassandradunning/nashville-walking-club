@@ -1,6 +1,6 @@
 # Front End Capstone @ Nashville Software School:  
 
-![Nashville Walking Club Logo] (https://previews.dropbox.com/p/thumb/ABzWOHQts_u9FL3p96_YoNSNGvItls5j-iUoEyS6fquRoikMl6gVwZs6joxmFruH3HUh4PCZnf7np_EMxHDav5rYPJJzB1LRil2t7S6yz2TlftwyCdAqKUU41O_bbPNdy5VPO3pcToJygVABTVbK7fcumVWzmYL56OKD0hy2KrhzuDMZsTFnxDCQbnVapsajI9iTwSIYFIzpZ8DLdlIaA7hQ3shtLYDCSqOSNm7dHeZLCkxLLpluFErS9EP8xyYYyQ4xXSF19PEHh7JJGIAJIn_vmCPPxD3H95i3fn7HjdoH1e8At55ObCbrYFkLv_hpyVBwshBTLwF055WLNdVi7YVtewxRSJjLqccHAd0DTv9QGagj0hMxDtA-7bt4E2zlHsM/p.png)
+![Nashville Walking Club Logo] (https://i.postimg.cc/QM9nDvq2/NWC-logo.png)
 
 Brief Proposal:
 
@@ -25,7 +25,7 @@ Brief Proposal:
 
 * Allow all users to filter Meet-ups by area of town
 
-* Allow all users to delete their Meet-ups
+* Allow all users to delete their suggested Meet-ups
 
 
 ### User Stories 
@@ -62,3 +62,5 @@ Brief Proposal:
 ERD for reference [ERD] (https://dbdiagram.io/d/63d16042296d97641d7c19bd)
 
 Wireframe for reference [Wireframe] (https://miro.com/app/board/uXjVP8Nzu0Q=/?share_link_id=443548986933)
+
+#react #javascript #html #css
