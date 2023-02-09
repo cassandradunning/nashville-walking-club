@@ -5,9 +5,9 @@ See and suggest the next walking meet-up in Nashville.
 ## Application Overview
 In July 20222, I started a walking club in Nashville, with the purpose of connecting walkers with a community and exploring new routes. That's how Nashville Walking Club was born.
 
-We meet in a new location at every meet-up and found that we needed a singular place to see upcoming events, and the ability to submit potential routes as well. 
+We meet in a new location at every meet-up and found that we needed a singular place to see upcoming events, and have the ability to submit potential routes for future walks. 
 
-This application took me two weeks, and allowed me to practice using React Hooks and CSS fstyling. My goals were to 
+This application took me two weeks, and allowed me to practice using React Hooks and CSS styling.  
 
 ## Features
 
