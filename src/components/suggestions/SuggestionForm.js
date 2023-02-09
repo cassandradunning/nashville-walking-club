@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 export const SuggestionForm = () => {
-  const [userNames, setUserNames] = useState([]);
   const [areaOfTowns, setAreaOfTowns] = useState([]);
   const [userSuggestions, setUserSuggestions] = useState({
     userName: 0,
@@ -18,12 +17,6 @@ export const SuggestionForm = () => {
   const walkerUserObject = JSON.parse(localWalkerUser);
 
   useEffect(() => {
-    fetch("http://localhost:8088/users")
-      .then((res) => res.json())
-      .then((userNamesdata) => {
-        setUserNames(userNamesdata);
-      });
-
     fetch("http://localhost:8088/areaOfTown")
       .then((res) => res.json())
       .then((areaOfTownsData) => {
@@ -57,30 +50,10 @@ export const SuggestionForm = () => {
 
   return (
     <>
-      <form className="suggestion-form" >
+      <form className="suggestion-form">
         <h2 className="suggestion-form-title">
           Have a great walking route? Send in a suggestion!
         </h2>
-
-        {/* <fieldset id="form-bar">
-          <select
-            className="form-box"
-            value={userSuggestions.userName}
-            id="user-select"
-            onChange={(event) => {
-              setUserSuggestions(parseInt(event.target.value));
-            }}
-          >
-            <option value="0">Select Your Name</option>
-            {userNames.map((userName) => {
-              return (
-                <option key={userName.id} value={userName.id}>
-                  {userName.fullName}
-                </option>
-              );
-            })}
-          </select>
-        </fieldset> */}
 
         <fieldset>
           <div className="form-group">

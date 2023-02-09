@@ -9,8 +9,7 @@ export const Home = () => {
     alt="Nashville Walking Club"
     className="home-img"/>
   </div>
-     <br></br>
-      <footer className="footer-container">
+  <footer className="footer-container">
         <Link to="webcal://p115-caldav.icloud.com/published/2/MTM1MjU1OTMwNTEzNTI1NewWrp0tyU7Oz-MVzhotICb73f-VycAtzje771VKrD6qpxceAMMJVnlUTGwUR6x6eDodF6i9kM8yvQHIPKtTSPE" className="footer-link">
           Subscribe to Our Calendar</Link>
       <Link className="social_link footer_link" to="https://www.instagram.com/nashvillewalkingclub/">

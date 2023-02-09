@@ -22,13 +22,13 @@ return (
               className="meetup-img"
             />
             <div className="meetup-name">{areaOfTown.meetupName}</div>
-            <div className="meetup-leader">{areaOfTown?.user?.fullName}</div>
+      
         <div className="meetup-address">{areaOfTown.address}</div>
         <div className="meetup-date">{areaOfTown.date}</div>
           </div>
         )
       })} 
-      <br></br>
+      
       <footer className="footer-container">
         <Link to="webcal://p115-caldav.icloud.com/published/2/MTM1MjU1OTMwNTEzNTI1NewWrp0tyU7Oz-MVzhotICb73f-VycAtzje771VKrD6qpxceAMMJVnlUTGwUR6x6eDodF6i9kM8yvQHIPKtTSPE" className="footer-link">
           Subscribe to Our Calendar</Link>

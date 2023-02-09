@@ -50,7 +50,3 @@ export const AllMeetups = () => {
     </>
   );
 };
-
-// Do i update the ERD to have names in the walk leader/walker?
-//  or do i update the meetup w/ a userID instead? ** picked this and updated the ERD from walkLeaderId to userId
-

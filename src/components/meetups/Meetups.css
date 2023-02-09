@@ -14,12 +14,12 @@
 }
 .meetup-img {
   height: 20rem;
-  width: 20rem;
+  width: 30rem;
   margin: 1rem;
-  box-shadow: 4px 3px 4px gray;
+  box-shadow: 4px 3px 4px rgb(224, 224, 224);
 }
 .meetup-img:hover {
-  box-shadow: 3px 2px 3px gray;
+  box-shadow: 3px 2px 3px rgb(169, 169, 169);
 }
 .meetup-details {
   font-size: 1.25rem;
@@ -49,8 +49,12 @@
   padding: 1rem;
   margin: 0.5rem;
   box-shadow: 1px 3px 4px rgb(146, 144, 144);
+  
 }
-/* .filter-box */
+.filter-box {
+  padding: 1rem;
+  
+}
 
 #meetup-select {
   padding: 0.25rem;

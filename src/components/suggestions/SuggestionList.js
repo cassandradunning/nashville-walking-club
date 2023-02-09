@@ -91,12 +91,6 @@ export const SuggestionList = () => {
           })}
         </article>
       ) : (
-
-
-
-
-     
-
         ""
       )}
     </>
