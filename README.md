@@ -1,4 +1,4 @@
-![Nashville Walking Club Logo](https://i.postimg.cc/QM9nDvq2/NWC-logo.png)
+# Nashville Walking Club
 
 See and suggest the next walking meet-up in Nashville.
 
