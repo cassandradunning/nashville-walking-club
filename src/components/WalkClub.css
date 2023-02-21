@@ -30,8 +30,3 @@ p {
   margin-block-end: 0;
 }
 
-.home_img {
-  display: flex;
- justify-content: center;
-  align-items: stretch;
-}

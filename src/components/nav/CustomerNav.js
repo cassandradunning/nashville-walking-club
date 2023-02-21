@@ -5,6 +5,7 @@ export const CustomerNav = () => {
   const navigate = useNavigate();
 
   return (
+  
     <ul className="navbar">
       <Link className="logo__link navbar__link" to="/">
         <img
