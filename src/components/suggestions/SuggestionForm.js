@@ -9,6 +9,7 @@ export const SuggestionForm = () => {
     walkName: "",
     address: "",
     areaOfTownId: 0,
+    meetupImg:""
   });
 
   const navigate = useNavigate();
@@ -30,6 +31,7 @@ export const SuggestionForm = () => {
     const suggestionToSendToAPI = {
       userId: walkerUserObject.id,
       walkName: userSuggestions.walkName,
+      meetupImg: userSuggestions.meetupImg,
       address: userSuggestions.address,
       areaOfTownId: userSuggestions.areaOfTownId,
     };
@@ -76,8 +78,27 @@ export const SuggestionForm = () => {
         </fieldset>
 
         <fieldset>
+        <div className="form-group">
+          <label htmlFor="meetupImg">Image of Location </label>
+          <input
+            required
+            id="meetupImg"
+            type="text"
+            className="form-control"
+            placeholder="https://www.example.com"
+            value={userSuggestions.meetupImg} 
+            onChange={(event) => {
+              const copy = { ...userSuggestions }
+              copy.meetupImg = event.target.value
+              setUserSuggestions(copy);
+            }}
+          />
+        </div>
+      </fieldset>
+
+        <fieldset>
           <div className="form-group">
-            <label htmlFor="address">Address Route </label>
+            <label htmlFor="address">Address of Route </label>
             <input
               required
               id="address"
@@ -97,13 +118,14 @@ export const SuggestionForm = () => {
 
         <fieldset>
           <div className="form-group">
-            <div>Area Of Town </div>
+            <div>Area of Town </div>
             {areaOfTowns.map((areaChoiceObj) => {
               return (
                 <div key={areaChoiceObj.id} className="radio">
                   <label>
                     <input
                       type="radio"
+                      className="radio-area"
                       value={areaChoiceObj.id}
                       checked={
                         userSuggestions.areaOfTownId === areaChoiceObj.id
@@ -112,9 +134,9 @@ export const SuggestionForm = () => {
                         const copy = { ...userSuggestions };
                         copy.areaOfTownId = parseInt(event.target.value);
                         setUserSuggestions(copy);
-                      }}
-                    />
-                    {areaChoiceObj.areaName}
+                      }} 
+                    /> {' '}
+                      {areaChoiceObj.areaName}
                   </label>
                 </div>
               );
@@ -129,26 +151,7 @@ export const SuggestionForm = () => {
           Submit
         </button>
       </form>
-
-      <br></br>
-      <footer className="footer-container">
-        <Link
-          to="webcal://p115-caldav.icloud.com/published/2/MTM1MjU1OTMwNTEzNTI1NewWrp0tyU7Oz-MVzhotICb73f-VycAtzje771VKrD6qpxceAMMJVnlUTGwUR6x6eDodF6i9kM8yvQHIPKtTSPE"
-          className="footer-link"
-        >
-          Subscribe to Our Calendar
-        </Link>
-        <Link
-          className="social_link footer_link"
-          to="https://www.instagram.com/nashvillewalkingclub/"
-        >
-          <img
-            className="social_img"
-            src="https://www.pngkey.com/png/full/1-19361_watercolor-instagram-icon-png-instagram-logo-white-on.png"
-            alt="Instagram"
-          />
-        </Link>
-      </footer>
+      
     </>
   );
 };

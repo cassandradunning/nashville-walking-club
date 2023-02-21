@@ -3,6 +3,7 @@ import { AreaOfChoiceFilter } from "./AreaOfChoiceFilter";
 import { MeetupsList } from "./MeetupsList";
 import './Meetups.css'
 
+
 export const AllMeetups = () => {
   const [meetups, setMeetups] = useState([]);
   const [filteredAreas, setFilteredAreas] = useState([]);

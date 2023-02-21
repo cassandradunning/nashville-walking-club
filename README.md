@@ -7,7 +7,7 @@ In July 20222, I started a walking club in Nashville, with the purpose of connec
 
 We meet in a new location at every meet-up and found that we needed a singular place to see upcoming events, and have the ability to submit potential routes for future walks. 
 
-This application took me two weeks, and allowed me to practice using React Hooks and CSS styling.  
+This application is the capstone project for Nashville Software School's client side. We were to use CRUD principles
 
 ## Features
 
@@ -19,9 +19,23 @@ This application took me two weeks, and allowed me to practice using React Hooks
 
 * Allow all users to delete their suggested Meet-ups
 
-## Technologies Used 
 
-#react #javascript #html #css #jsonserver #vscode #git #github
+##  Technologies Used
+
+#react #javascript #JSX #css #jsonserver #vscode #git #github
+
+## Installation
+
+To install this application:
+* Clone this repository
+```git clone git@github.com:cassandradunning/nashville-walking-club.git ```
+* Change to the directory
+``` cd walk-club ```
+* Install the database
+```git@github.com:cassandradunning/nashville-walking-club-api.git```
+```npm install json-server```
+* Launch the client
+```npm install npm start```
 
 
 ## Planning Links
@@ -29,6 +43,7 @@ This application took me two weeks, and allowed me to practice using React Hooks
 [ERD](https://dbdiagram.io/d/63d16042296d97641d7c19bd)
 
 [Wireframe](https://miro.com/app/board/uXjVP8Nzu0Q=/?share_link_id=443548986933)
+
 
 
 ###   Created By Cassie Dunning

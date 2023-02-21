@@ -1,17 +1,19 @@
 import { Link } from "react-router-dom";
+import "./Home.css";
 
 export const Home = () => {
   return (
     <>
     <div> 
       <img
-    src="https://i.postimg.cc/pd979jDV/NWC-Homepage.png"
+    src="https://i.postimg.cc/KjQ3cxq7/NWC-Homepage-1920-1080-px.png"
     alt="Nashville Walking Club"
-    className="home-img"/>
+    className="home-img"
+   />
   </div>
-  <footer className="footer-container">
-        <Link to="webcal://p115-caldav.icloud.com/published/2/MTM1MjU1OTMwNTEzNTI1NewWrp0tyU7Oz-MVzhotICb73f-VycAtzje771VKrD6qpxceAMMJVnlUTGwUR6x6eDodF6i9kM8yvQHIPKtTSPE" className="footer-link">
-          Subscribe to Our Calendar</Link>
+  {/* <footer className="footer-container">
+       
+          <div className="footer-text">We meet in the park and walk with our friends.</div>
       <Link className="social_link footer_link" to="https://www.instagram.com/nashvillewalkingclub/">
         <img
           className="social_img"
@@ -20,7 +22,7 @@ export const Home = () => {
         />
       </Link>
 
-      </footer>
+      </footer> */}
        
     </>
   );

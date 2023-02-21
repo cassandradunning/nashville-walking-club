@@ -18,14 +18,74 @@ fieldset {
 
 .btn {
   align-self: flex-end;
-  margin-right: 3rem;
-  font-size: 1rem;
-  padding: 0.5rem;
-  box-shadow: 2px 2px 4px -1px grey;
   background-color: rgb(239, 14, 14);
-  border: none;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
   color: white;
-  border-radius: 7px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+  
+}
+
+.btn-approve {
+  align-self: center;
+    background-color: rgb(239, 14, 14);
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Amazon Ember",sans-serif;
+    font-size: 13px;
+    line-height: 29px;
+    padding: 0 10px 0 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: 100px;
+}
+.btn-deny {
+  align-self: center;
+    background-color: rgb(239, 14, 14);
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Amazon Ember",sans-serif;
+    font-size: 13px;
+    line-height: 29px;
+    padding: 0 10px 0 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: 100px;
 }
 
 .form-group {
@@ -58,17 +118,25 @@ form input {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
 }
-
-/* .allsuggestions {
+.suggestions-form {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-} */
+  padding: 1rem;
+}
+
+.allsuggestions {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
 
 .suggestion-box {
   flex: 0 0 25%;
@@ -80,10 +148,19 @@ form input {
 .allsuggestion-box {
   flex: 0 0 25%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  padding: 3rem;
+  /* padding: 3rem; */
   background-color: rgb(225, 225, 225);
+}
+.suggestion-img {
+  height: 20rem;
+  width: 20rem;
+  margin: 1rem;
+  box-shadow: 4px 3px 4px rgb(224, 224, 224);
+}
+.suggestion-img:hover {
+  box-shadow: 3px 2px 3px rgb(169, 169, 169);
 }
 .suggest-userName {
   font-size: 0.85rem;
@@ -99,8 +176,18 @@ form input {
 }
 .suggest-delete {
   color: rgb(239, 14, 14);
-}
+} 
 .delete-button {
-  margin-left:auto;
-  background-color:  rgb(239, 14, 14);
+  margin-left: auto;
+  background-color: rgb(239, 14, 14);
+  
 }
+.leader-img {
+  height: 10rem;
+  width: 10rem;
+  margin: 1rem;
+}
+
+
+
+
