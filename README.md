@@ -42,9 +42,9 @@ To install this application:
 
 ## Planning Links
 
-[ERD](https://dbdiagram.io/d/63d16042296d97641d7c19bd)
+[ERD](https://dbdiagram.io/d/63d16042296d97641d7c19bd) with dbdiagram
 
-[Wireframe](https://miro.com/app/board/uXjVP8Nzu0Q=/?share_link_id=443548986933)
+[Wireframe](https://miro.com/app/board/uXjVP8Nzu0Q=/?share_link_id=443548986933) with Miro
 
 
 
