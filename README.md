@@ -37,6 +37,8 @@ To install this application:
 * Launch the client
 ```npm install npm start```
 
+## Experience
+![Application View](https://cdn.loom.com/sessions/thumbnails/e8d0d0614ae54a80acf0f71b0952567d-with-play.gif)
 
 ## Planning Links
 
