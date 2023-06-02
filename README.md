@@ -37,12 +37,15 @@ To install this application:
 * Launch the client
 ```npm install npm start```
 
+## Experience
+
+![](https://cdn.loom.com/sessions/thumbnails/e8d0d0614ae54a80acf0f71b0952567d-with-play.gif)
 
 ## Planning Links
 
-[ERD](https://dbdiagram.io/d/63d16042296d97641d7c19bd)
+[ERD](https://dbdiagram.io/d/63d16042296d97641d7c19bd) with dbdiagram
 
-[Wireframe](https://miro.com/app/board/uXjVP8Nzu0Q=/?share_link_id=443548986933)
+[Wireframe](https://miro.com/app/board/uXjVP8Nzu0Q=/?share_link_id=443548986933) with Miro
 
 
 
