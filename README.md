@@ -1,4 +1,4 @@
-![Nashville Walking Club Logo](https://i.postimg.cc/QM9nDvq2/NWC-logo.png)
+# Nashville Walking Club
 
 See and suggest the next walking meet-up in Nashville.
 
@@ -7,7 +7,7 @@ In July 20222, I started a walking club in Nashville, with the purpose of connec
 
 We meet in a new location at every meet-up and found that we needed a singular place to see upcoming events, and have the ability to submit potential routes for future walks. 
 
-This application is the capstone project for Nashville Software School's client side. We were to use CRUD principles
+This application is the capstone project for Nashville Software School's client side. There are full CRUD capabilities using React, React Routing, and JSON server. CSS was used for an approachable user experience.
 
 ## Features
 
@@ -38,8 +38,7 @@ To install this application:
 ```npm install npm start```
 
 ## Experience
-
-![](https://cdn.loom.com/sessions/thumbnails/e8d0d0614ae54a80acf0f71b0952567d-with-play.gif)
+![Application View](https://cdn.loom.com/sessions/thumbnails/e8d0d0614ae54a80acf0f71b0952567d-with-play.gif)
 
 ## Planning Links
 
