@@ -4,7 +4,7 @@ import "./Home.css";
 export const Home = () => {
   return (
     <>
-    <div> 
+<div className="home-container">
       <img
     src="https://i.postimg.cc/KjQ3cxq7/NWC-Homepage-1920-1080-px.png"
     alt="Nashville Walking Club"
